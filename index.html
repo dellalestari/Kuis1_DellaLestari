@@ -1,59 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <style>
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #0b2533;
-            color: #ffffff;
-            line-height: 1.6;
-        }
-
-        img {
-            max-width: 100%;
-            display: block;
-            border-radius: 8px;
-        }
-
-       
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-        }
-
-        .logo {
-            font-weight: bold;
-            font-style: italic;
-            font-size: 1.2rem;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 0.9rem;
-        }
-    </style>
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Praktikum Bootstrap 5</title>
     
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        background-color: rgb(17, 175, 223);
+      }
+
+      .text {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-2">
+          <h1 class="text">MotoGp</h1>
+        </div>
+        <div
+          class="rounded bg-primary bg-gradient col-1"
+          style="height: 40px"
+        ></div>
+        <div class="col-7"></div>
+        <div class="col-2 text-end fw-semibold">
+          
+        </div>
+      </div>
+      <br />
+      <br />
+      
+      <br />
+      <h4 class="text">Latest News</h4>
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <figure class="figure">
+            <img
+              src="images/images-20260330T064701Z-1-001/images/news1.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 1"
+              style="height: 300px"
+            />
+            <figcaption class="figure-caption text-center text">
+              
+              <p>Acosta receives penalty, loses Sprint podium as Bastianini </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <figure class="figure">
+            <img
+              src="images/images-20260330T064701Z-1-001/images/news2.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 2"
+              style="height: 300px"
+            />
+            <figcaption class="figure-caption text-center text">
+                   <p>Marc Marquez handed Long Lap Penalty after Giannantonio crash</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <figure class="figure">
+            <img
+              src="images/images-20260330T064701Z-1-001/images/news3.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 3"
+              style="height: 300px"
+            />
+            <figcaption class="figure-caption text-center text">
+              
+              <p>Martin steals stunning sprints win as drama takes the reins in texas</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <figure class="figure">
+            <img
+              src="images/images-20260330T064701Z-1-001/images/news4.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 4"
+              style="height: 300px"
+            />
+            <figcaption class="figure-caption text-center text">
+             
+              <p>Bezzecchi and marini penalised after COTA Q2 incident</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+     
+      <br />
+
+      <h4 class="text">Documentaries</h4>
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-2">
+          <figure class="figure">
+            <img
+              src="images/images-20260330T064701Z-1-001/images/Hall_of_fame_Cover_web.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 1"
+              style="height: 250px"
+            />
+            <figcaption class="figure-caption text-center text">
+              
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <figure class="figure">
+            <img
+              src="images/images-20260330T064701Z-1-001/images/FQ_Documentary_COVER.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 2"
+              style="height: 250px"
+            />
+            <figcaption class="figure-caption text-center text">
+              <h6>ini judul 2</h6>
+              <p>ini deskripsi</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <figure class="figure">
+            <img
+              src="https://fr.web.img2.acsta.net/pictures/23/04/05/17/17/4725967.jpg"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 3"
+              style="height: 250px"
+            />
+            <figcaption class="figure-caption text-center text">
+              <h6>Ini judul 3</h6>
+              <p>ini deskripsi</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <figure class="figure">
+            <img
+              src="https://www.cinehorizons.net/sites/default/files/affiches/1839251068-sur-les-chemins-noirs.jpg"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 4"
+              style="height: 250px"
+            />
+            <figcaption class="figure-caption text-center text">
+              <h6>Ini judul 4</h6>
+              <p>ini deskripsi</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <figure class="figure">
+            <img
+              src="https://tse1.mm.bing.net/th/id/OIP.w2RwTi1vF-_mpKBrTEFEQAHaKF?pid=Api&P=0&h=180"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 3"
+              style="height: 250px"
+            />
+            <figcaption class="figure-caption text-center text">
+              <h6>Ini judul 5</h6>
+              <p>ini deskripsi</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <figure class="figure">
+            <img
+              src="https://fr.web.img6.acsta.net/pictures/22/10/04/14/00/5857542.jpg"
+              class="img-fluid rounded shadow-sm"
+              alt="Gallery 4"
+              style="height: 250px"
+            />
+            <figcaption class="figure-caption text-center text">
+              <h6>Ini judul 6</h6>
+              <p>ini deskripsi</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row g-3">
+        <div class="">
+          <img
+            src="https://picsum.photos/400/300?random=10"
+            class="img-fluid rounded shadow-sm col-12 col-md-12 col-lg-12"
+            alt="Gallery 1"
+            style="height: 400px"
+          />
+        </div>
+      </div>
+
+      <br />
+    </div>
+
+    <footer>
+         <div class="container mt-4">
+          <div class="row">
+             <div class="col-6 text-start text-white">
+                <p>&copy; 2024 TMDB. All rights reserved.</p>
+             </div>
+    </footer>
+
+    <!-- <div class="container mt-4">
+      <h2>Grid Responsive</h2>
+      <p><strong>Coba resize browser Anda!</strong></p>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div
+            style="
+              background: #d1e7dd;
+              padding: 15px;
+              border: 1px solid #a3cfbb;
+              margin-bottom: 10px;
+            "
+          >
+            Card 1
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div
+            style="
+              background: #d1e7dd;
+              padding: 15px;
+              border: 1px solid #a3cfbb;
+              margin-bottom: 10px;
+            "
+          >
+            Card 2
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div
+            style="
+              background: #d1e7dd;
+              padding: 15px;
+              border: 1px solid #a3cfbb;
+              margin-bottom: 10px;
+            "
+          >
+            Card 3
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div
+            style="
+              background: #d1e7dd;
+              padding: 15px;
+              border: 1px solid #a3cfbb;
+              margin-bottom: 10px;
+            "
+          >
+            Card 4
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
